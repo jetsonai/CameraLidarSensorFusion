@@ -1,6 +1,5 @@
 import open3d as o3d
 import numpy as np
-import hdbscan
 import matplotlib.pyplot as plt
 
 # PCD 파일 경로 설정
