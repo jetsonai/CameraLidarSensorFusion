@@ -1,22 +1,55 @@
 # CameraLidarSensorFusion
 
+git clone https://github.com/jetsonai/CameraLidarSensorFusion
+
+## To get datasets
+
 https://drive.google.com/file/d/1YQAipy-mCAI_04oxECKGFkFhwjSp1L2F/view?usp=sharing
 
 https://drive.google.com/file/d/1tUuOkCC1IvE0-mQ-aObs6IyAnrttqaUq/view?usp=sharing
 
+cd ~/CameraLidarSensorFusion
 
-## For the last exercize !!
+mv ~/Downloads/datasets.tar.gz ./
 
-cd sensor_fusion/dataset/
+tar xzf datasets.tar.gz
 
-scp -r user@192.168.100.5:/home/user/sensor_fusion/dataset/2011_09_26/ .
+mv ~/Downloads/datasets.tar.gz ./
 
-cd sensor_fusion/quiz_solution/sensor_fusion/
+tar xzf datasets.tar.gz
 
-scp -r user@192.168.100.5:/home/user/sensor_fusion/quiz_solution/sensor_fusion/Q* .
+-------------------------------
+
+## camera_only
+
+cd ~/CameraLidarSensorFusion/camera_only
+
+python3 1
+
+-----------------------------------
+
+## lidar_only
+
+cd ~/CameraLidarSensorFusion/lidar_only
+
+python3 1
+
+-----------------------------------
+
+## sensor_fusion
+
+cd ~/CameraLidarSensorFusion/sensor_fusion
+
+python3 1
+
+--------------------------------
+
+## Exercise
+
+cd ~/CameraLidarSensorFusion/
 
 python3 Q2_sensorfusion.py
 
 python3 Q3_sensorfusion_infer_video.py
 
-## The other exercise will be update soon !! ( in a week maybe :) )
+## The other exercise will be update soon !! ( in 1~2 week maybe :) )
