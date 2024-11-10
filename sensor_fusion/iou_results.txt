@@ -1,0 +1,16 @@
+a_box_01_b_box_01: 0.2000
+a_box_01_b_box_02: 0.0000
+a_box_01_b_box_03: 0.2857
+a_box_01_b_box_04: 0.0000
+a_box_02_b_box_01: 0.3913
+a_box_02_b_box_02: 0.2500
+a_box_02_b_box_03: 0.5217
+a_box_02_b_box_04: 0.0000
+a_box_03_b_box_01: 0.2857
+a_box_03_b_box_02: 0.0938
+a_box_03_b_box_03: 0.4286
+a_box_03_b_box_04: 0.0000
+a_box_04_b_box_01: 0.0000
+a_box_04_b_box_02: 0.1034
+a_box_04_b_box_03: 0.0385
+a_box_04_b_box_04: 0.3333
