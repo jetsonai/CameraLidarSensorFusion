@@ -24,7 +24,7 @@ tar xzf datasets.tar.gz
 
 cd ~/CameraLidarSensorFusion/camera_only
 
-python3 1
+python3 1_image_data_load.py ~ Q3_show_inference_viideo.py
 
 -----------------------------------
 
@@ -32,7 +32,7 @@ python3 1
 
 cd ~/CameraLidarSensorFusion/lidar_only
 
-python3 1
+python3 1_lidar_preprocessing.py ~ 8_draw_bbox.py
 
 -----------------------------------
 
@@ -40,13 +40,13 @@ python3 1
 
 cd ~/CameraLidarSensorFusion/sensor_fusion
 
-python3 1
+python3 1_translation_transform.py ~ 15_object_tracking.py
 
 --------------------------------
 
 ## Exercise
 
-cd ~/CameraLidarSensorFusion/
+cd ~/CameraLidarSensorFusion/quiz_solution/camera_only
 
 python3 Q2_sensorfusion.py
 
